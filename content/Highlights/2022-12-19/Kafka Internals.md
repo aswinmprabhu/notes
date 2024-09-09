@@ -1,7 +1,5 @@
-
 ---
 id: 1445f443-eb7c-43f5-9fa0-ddb7dc10c487
-
 ---
 
 # Kafka Internals
@@ -23,6 +21,5 @@ id: 1445f443-eb7c-43f5-9fa0-ddb7dc10c487
 
 > If the partition number is passed as an input, it is used as the partition.
 > If the message has a key, it uses the default partitioner (which takes the hash of the key modulo number of partitions ) to decide the partition. We can also implement our own custom partitioner.
-> If the message key is not specified, then the producer randomly distributes the messages across partitions using the round-robin algorithm. [⤴️](https://omnivore.app/me/kafka-internals-1852b397db4#ab70b391-6ac0-4b4b-ad12-25b084fb7820)  ^ab70b391 
-<!--SR:!2024-09-09,3,250--> 
+> If the message key is not specified, then the producer randomly distributes the messages across partitions using the round-robin algorithm. [⤴️](https://omnivore.app/me/kafka-internals-1852b397db4#ab70b391-6ac0-4b4b-ad12-25b084fb7820)  ^ab70b391
 

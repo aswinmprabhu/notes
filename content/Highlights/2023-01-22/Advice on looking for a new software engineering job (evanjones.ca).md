@@ -1,7 +1,5 @@
-
 ---
 id: 52680476-366a-416a-ad3b-64c71d0af9bb
-
 ---
 
 # Advice on looking for a new software engineering job (evanjones.ca)
